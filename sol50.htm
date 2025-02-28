@@ -1,0 +1,55 @@
+<html>
+<head>
+<title>Untitled Document</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+
+<body bgcolor="#FFFFFF">
+<p>Problema 50</p>
+<table width="75%" border="1">
+  <tr>
+    <td>Demostrar que dando sólo dos «cortes rectos» a cualquier triángulo T, 
+      y dada cualquier recta r, se puede descomponer en tres figuras geométricas 
+      (dos triángulos y un cuadrilátero) que pueden ser «reagrupadas» usando sólo 
+      rotaciones y traslaciones (no simetrías) construyendo T’ (triángulos simétrico 
+      de T respecto a r). </td>
+  </tr>
+</table>
+<p>Soluci&oacute;n de la profesora Mª Luisa Fiol (Universidad Aut&oacute;noma 
+  de Barcelona)</p>
+<p>1 - Se trazan en cada uno de los triángulos dos alturas correspondientes. </p>
+<p><img src="imagensimetr.gif" width="480" height="223"></p>
+<p>&nbsp;</p>
+<p>Por ejemplo respecto a los lados de longitud mayor. </p>
+<p>&nbsp;</p>
+<p><img src="imagensimetr1.gif" width="506" height="247"></p>
+<p>&nbsp;</p>
+<p>2 - Se localiza en cada caso el punto medio de las dos alturas. </p>
+<p><img src="imagensimetr2.gif" width="519" height="247"></p>
+<p>3 - Se hace que el triángulo T ' gire 180º sobre este punto. </p>
+<p><img src="imagensimetr3.gif" width="586" height="247"></p>
+<p>4 - Una vez hemos dado la vuelta al triángulo T ' se le desplaza (traslación 
+  y giro) hasta situarlo sobre T de forma que las alturas dibujadas coincidan 
+  y los lados que son bases correspondientes queden paralelos. </p>
+<p><img src="imagensimetr4.gif" width="246" height="196"></p>
+<p>5 - Esto da sobre el triángulo T una descomposición en tres piezas: un cuadrilátero 
+  tipo cometa y dos triángulos isósceles. </p>
+<p>Estos dos triángulos isósceles tienen cada uno un vértice que coincide con el punto 
+  medio de los dos lados del trángulo T.</p>
+<p>&nbsp;</p>
+
+<applet code="CabriJava.class"  width="348" height="367" archive="CabriJava.jar">
+  <param name="lang" value="en">
+  <param name="bgcolor" value="#F0F0CC">
+  <param name="file" value="imagsimetr.fig">
+</applet> 
+<p> Una vez obtenido el puzzle formado por las tres piezas, para pasar de T a 
+  T' </p>
+<p>basta, si consideramos que las tres piezas forman el triángulo T, mantener 
+  fijo </p>
+<p>el cuadrilátero y hacer girar 180º cada uno de los dos triángulos is&oacute;sceles</p>
+<p> con centro en sus vértices que coinciden con los puntos medios de los lados 
+  de T.</p>
+<p> Al producirse estos giros se reproduce el triángulo T'. </p>
+</body>
+</html>

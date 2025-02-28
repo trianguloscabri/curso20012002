@@ -1,0 +1,51 @@
+<!-- saved from url=(0022)http://internet.e-mail -->
+<HTML>
+<HEAD>
+	<TITLE>Cabri Java Applet</TITLE>
+</HEAD>
+<BODY BGCOLOR="#FFFFFF">
+<H2 ALIGN=center><font size="+4">GENERALIZACIÓN DE LA RECTA DE EULER</font></H2>
+<p ALIGN=left>Se trata de una generalización de la recta de Euler obtenida 
+  debilitando las hipótesis.</p>
+<p ALIGN=left>Consideraremos un triángulo cualquiera ABC, los puntos medios 
+  de los de los lados CA y BC (M y N), y las rectas arbitrarias r1 y r2 que pasan 
+  por N y M, respectivamente.</p>
+<p ALIGN=left>Si consideramos ahora la homotecia de centro G, baricentro del triángulo, 
+  y razón -2, observamos:</p>
+<ul>
+  <li>N se transforma en el vértice A (por la propiedad métrica 
+    de las medianas y el baricentro).</li>
+  <li>La recta r1 se transforma en la recta paralela r1' que, además, pasa 
+    por A.</li>
+  <li>M se transforma en el vértice B. </li>
+  <li>La recta r2 se transforma en la recta paralela r2' que pasa por B.</li>
+  <li>El punto C1, punto de intersección de las rectas r1 y r2, se transforma 
+    en otro punto que tiene que estar sobre las rectas homotéticas r1' 
+    y r2'; es decir, <b>el punto C1 se transforma por la homotecia considerada 
+    en el punto C2</b>, punto de intersección de las rectas r1' y r2'.</li>
+</ul>
+<p>Se obtiene como consecuencia que los puntos C1, G y C2 están alineados, 
+  que G es interior al segmento C1C2 y que GC2 = 2*C1G.</p>
+<p>En el caso clásico las rectas r1 y r2 son las mediatrices de los lados 
+  correspondientes siendo entonces r1' y r2' alturas del triángulo y se 
+  obtiene la recta de Euler. En el caso que hemos considerado, el resultado se 
+  puede expresar del siguiente modo: <br>
+  Si en un triángulo ABC consideramos dos rectas arbitrarias r1 y r2 que 
+  pasen por los puntos medios de dos lados (N y M), y las rectas paralelas a ellas 
+  que pasan por los vértices A y B (r1' y r2'), se cumple que los puntos 
+  de intersección de r1 y r2 (C1) y de r1' y r2' (C2) están alineados 
+  con el baricentro del triángulo, siendo éste interior al segmento 
+  C1C2, y se cumple GC2 = 2*C1G.</p>
+<p> </p>
+<P ALIGN=center><APPLET CODE="CabriJava.class" WIDTH="463" HEIGHT="560" ALIGN=bottom ARCHIVE="CabriJava.jar">
+	<PARAM NAME=file VALUE="eulgen.fig">
+	<PARAM NAME=lang VALUE="es">
+	<PARAM NAME=border VALUE="3">
+	<PARAM NAME=bgcolor VALUE="#FFFFCC">
+	<PARAM NAME=autocontrol VALUE="true">
+	<PARAM NAME=xposition VALUE="20">
+</APPLET><BR><B>Figure </B><TT>eulgen.fig</TT>
+<P ALIGN=right><FONT SIZE=-1><B>Applet created on 17/11/01 by <a href="mailto:%20cfleitas@platea.pntic.mec.es">Carlos 
+  Fleitas</a></B></FONT> 
+</BODY>
+</HTML>

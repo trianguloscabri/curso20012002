@@ -1,0 +1,49 @@
+<html>
+<head>
+<title>Teorema de Menelao</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+
+<body bgcolor="#FFFFFF" text="#000000">
+<h2 align="center"><b>TEOREMA DE MENELAO</b></h2>
+<p>Una condición necesaria y suficiente para que tres puntos M, N y P situados 
+  sobre los lados de un triángulo estén alineados es que se cumpla 
+  la condición: (AP/PB)(BN/NC)(CM/MA) = -1 </p>
+<p> </p>
+<p align="center"><img src="menelao.gif" width="467" height="197" border="1"></p>
+<p>A) <b>Veamos que es necesaria:</b></p>
+<p>Consideremos las proyecciones (R, S y T) de los vértices del triángulo 
+  sobre la recta determinada por los puntos M, N y P. Los triángulos AMR y  MCS, por un lado, los NCS y NBT por otro, y los APR y  BPT por otro, son semejantes. De las semejanzas indicadas se deduce: AR/BT = AP/BP y BT/CS = BN/CN y 
+  CS/AR = CM/MA. Multiplicando miembro a miembro las tres igualdades obtenemos 
+  1 = (AP/PB)(BN/CN)(CM/MA). Reescribimos el segundo miembro de la igualdad del 
+  siguiente modo: (AP/PB)(BN/NC)(CM/MA) y, teniendo en cuenta que la recta tiene 
+  que cortar al triángulo en uno o en tres puntos exterioriores a sus lados, 
+  resulta que la igualdad anterior toma el valor 1 pero con signo negativo si 
+  consideramos los segmentos con orientación.</p>
+<p>B) <b>La condición es necesaria</b>:</p>
+<p>Supongamos que se cumple la condición anterior y que los puntos M, N 
+  y P no están alineados. Consideremos la recta determinada por M y N y 
+  llamemos P' al punto de intersección de esa recta con el lado determinado 
+  por los vértices A y B.</p>
+<p>Por hipótesis tenemos: (AP/PB)(BN/NC)(CM/NA) = -1, y por el resultado 
+  A) sabemos que se tiene que cumplir: (AP'/P'B)(BN/NC)(CM/NA) = -1.</p>
+<p>De ambas igualdades se obtiene AP/PB = AP'/P'B y, teniendo en cuenta que en 
+  esta situación P y P' son ambos o bien interiores o bien exteriores simultáneamente 
+  al segmento AB (dependiendo del signo de las relaciones anteriores), se deduce 
+  que los puntos P y P' coinciden lo que contradice la hipótesis de partida.</p>
+<hr>
+<p> </p>
+<p>El applet siguiente permite ver la situación del teorema de Menelao. 
+  Se puede deformar el triángulo actuando sobre sus vértices y se 
+  puede modificar la recta desplazando los puntos M y N</p>
+<p align="center"><APPLET CODE="CabriJava.class" WIDTH="470" HEIGHT="357" ALIGN=bottom ARCHIVE="CabriJava.jar">
+	<PARAM NAME=file VALUE="menelao.fig">
+	<PARAM NAME=lang VALUE="es">
+	<PARAM NAME=border VALUE="3">
+	<PARAM NAME=bgcolor VALUE="#FFFFCC">
+	<PARAM NAME=autocontrol VALUE="true">
+	<PARAM NAME=xposition VALUE="130">
+	<PARAM NAME=yposition VALUE="60">
+</APPLET></p>
+</body>
+</html>

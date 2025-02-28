@@ -1,0 +1,165 @@
+FIGURE CabriII vers. MS-Windows 1.0
+
+Window center x: 0 y: 0 Window size x: 20.7433333333333 y: 12.3825
+
+1: Pt, 0, CN:0, VN:1
+R, W, t, DS:1 1, GT:1, I, nSt
+Val: 0 0
+
+2: Axes, 1, CN:1, VN:3
+Gr, W, t, DS:1 1, GT:0, I, nSt
+Const: 1, Val: 1 0, 0 1
+
+3: Pt, 0, CN:0, VN:1
+R, W, t, DS:1 1, GT:1, I, nSt
+Val: -2.01083333333333 0.211666666666667
+
+4: Cir, 0, CN:1, VN:2
+Bl, W, t, DS:1 1, GT:0, I, nSt
+Const: 3, Val: 4.58180112646763
+
+"B", NP: 58, 101, NS: 17, 37
+5: Pt/, 0, CN:1, VN:3
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 4, Val: 1.54014816349009 -2.68374901535859
+p: 0, Comic Sans MS, S: 24 C: 15 Fa: 1
+
+6: Line, 0, CN:2, VN:2
+V, W, t, DS:1 1, GT:0, I, nSt
+Const: 5 3
+
+"C", NP: -228, 103, NS: 17, 37
+7: Pt/, 0, CN:1, VN:3
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 4, Val: -5.56854198900153 -2.67547910102218
+p: 0, Comic Sans MS, S: 24 C: 15 Fa: 1
+
+"A", NP: -215, -147, NS: 20, 37
+8: Int, 0, CN:3, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 6 4 5
+p: 0, Comic Sans MS, S: 24 C: 15 Fa: 1
+
+9: Tr, 0, CN:3, VN:0
+V, W, t, DS:1 1, GT:0, V, nSt
+Const: 5 7 8
+
+10: Biss, 0, CN:3, VN:2
+V, W, t, DS:1 1, GT:0, I, nSt
+Const: 8 7 5
+
+11: Biss, 0, CN:3, VN:2
+V, W, t, DS:1 1, GT:0, I, nSt
+Const: 8 5 7
+
+"I", NP: -136, 24, NS: 15, 37
+12: Int, 0, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 10 11
+p: 0, Comic Sans MS, S: 24 C: 15 Fa: 1
+
+13: Perp, 0, CN:2, VN:2
+V, W, t, DS:1 1, GT:0, I, nSt
+Const: 12 9
+
+14: Perp, 256, CN:2, VN:2
+V, W, t, DS:1 1, GT:0, I, nSt
+Const: 12 9
+
+15: Int, 1, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 9 14
+
+16: Cir, 0, CN:2, VN:2
+Bl, W, tT, DS:1 1, GT:0, V, nSt
+Const: 12 15
+
+17: Int, 0, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 9 16
+
+18: Seg, 0, CN:2, VN:0
+V, W, t, DS:5 8, GT:0, V, nSt
+Const: 17 12
+
+19: Seg, 0, CN:2, VN:0
+V, W, t, DS:5 8, GT:0, V, nSt
+Const: 15 12
+
+20: Text, 0, CN:0, VN:1
+B, W, BTh:2, DS:1 1, GT:0, V, nSt
+Val: -173 110 0, nA, nP, TP: -4.57729166666667, -2.91041666666667,TS: 0.370416666666667, -0.978958333333333
+"r"
+p: 0, Comic Sans MS, S: 24 C: 15 Fa: 1
+
+21: Text, 0, CN:0, VN:1
+B, W, BTh:2, DS:1 1, GT:0, V, nSt
+Val: -231 59 0, nA, nP, TP: -6.111875, -1.56104166666667,TS: 0.370416666666667, -0.978958333333333
+"r"
+p: 0, Comic Sans MS, S: 24 C: 15 Fa: 1
+
+22: Text, 0, CN:0, VN:1
+B, W, BTh:2, DS:1 1, GT:0, V, nSt
+Val: -63 107 0, nA, nP, TP: -1.666875, -2.83104166666667,TS: 1.11125, -0.978958333333333
+"a-r"
+p: 0, Comic Sans MS, S: 24 C: 15 Fa: 1
+
+23: Text, 0, CN:0, VN:1
+B, W, BTh:2, DS:1 1, GT:0, V, nSt
+Val: -2 21 0, nA, nP, TP: -0.0529166666666667, -0.555625,TS: 1.11125, -0.978958333333333
+"a-r"
+p: 0, Comic Sans MS, S: 24 C: 15 Fa: 1
+
+24: Text, 0, CN:0, VN:1
+B, W, BTh:2, DS:1 1, GT:0, V, nSt
+Val: -257 -65 0, nA, nP, TP: -6.79979166666667, 1.71979166666667,TS: 1.13770833333333, -0.978958333333333
+"b-r"
+p: 0, Comic Sans MS, S: 24 C: 15 Fa: 1
+
+25: Text, 0, CN:0, VN:1
+B, W, BTh:2, DS:1 1, GT:0, V, nSt
+Val: -140 -96 0, nA, nP, TP: -3.70416666666667, 2.54,TS: 1.13770833333333, -0.978958333333333
+"b-r"
+p: 0, Comic Sans MS, S: 24 C: 15 Fa: 1
+
+26: Int, 2, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 9 16
+
+27: Seg, 0, CN:2, VN:0
+P, W, tT, DS:1 1, GT:0, V, nSt
+Const: 8 26
+
+28: Seg, 0, CN:2, VN:0
+R, W, tT, DS:1 1, GT:0, V, nSt
+Const: 15 7
+
+29: Seg, 0, CN:2, VN:0
+R, W, tT, DS:1 1, GT:0, V, nSt
+Const: 7 17
+
+30: Seg, 0, CN:2, VN:0
+dG, W, tT, DS:1 1, GT:0, V, nSt
+Const: 17 5
+
+31: Seg, 0, CN:2, VN:0
+dG, W, tT, DS:1 1, GT:0, V, nSt
+Const: 5 26
+
+32: Seg, 0, CN:2, VN:0
+P, W, tT, DS:1 1, GT:0, V, nSt
+Const: 8 15
+
+33: Seg, 0, CN:2, VN:0
+V, W, t, DS:5 8, GT:0, V, nSt
+Const: 26 12
+
+34: Text, 0, CN:0, VN:1
+B, W, BTh:2, DS:1 1, GT:0, V, nSt
+Val: -83 -161 0, nA, nP, TP: -2.19604166666667, 4.25979166666667,TS: 2.43416666666667, -1.74625
+" (a-r)+(b-r)=c, 
+
+ r= 1/2*(a+b-c)
+"
+p: 0, System, S: 0 C: 15 Fa: 0
+

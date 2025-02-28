@@ -1,0 +1,106 @@
+FIGURE CabriII vers. MS-Windows 1.0
+
+Window center x: -2.2225 y: 1.45520833333333 Window size x: 16.2983333333333 y: 9.73666666666667
+
+1: Pt, 0, CN:0, VN:1
+R, W, t, DS:1 1, GT:1, I, nSt
+Val: 0 0
+
+2: Axes, 1, CN:1, VN:3
+Gr, W, t, DS:1 1, GT:0, I, nSt
+Const: 1, Val: 1 0, 0 1
+
+"O", NP: -246, -146, NS: 21, 35
+3: Pt, 0, CN:0, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Val: -6.37645833333333 3.06916666666667
+p: 0, Comic Sans MS, S: 24 C: 15 Fa: 0
+
+4: Cir, 0, CN:1, VN:2
+Bl, W, t, DS:1 1, GT:0, V, nSt
+Const: 3, Val: 2.31022312835314
+
+"A", NP: -345, -141, NS: 19, 35
+5: Pt/, 0, CN:1, VN:3
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 4, Val: -8.68668146168647 3.06916666666667
+p: 0, Comic Sans MS, S: 24 C: 15 Fa: 0
+
+6: Line, 0, CN:2, VN:2
+V, W, t, DS:1 1, GT:0, V, nSt
+Const: 5 3
+
+"C", NP: -150, -130, NS: 16, 35
+7: Int, 0, CN:3, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 6 4 5
+p: 0, Comic Sans MS, S: 24 C: 15 Fa: 0
+
+"B", NP: -178, -205, NS: 17, 35
+8: Pt/, 0, CN:1, VN:3
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 4, Val: -4.8310005382866 4.78634199449637
+p: 0, Comic Sans MS, S: 24 C: 15 Fa: 0
+
+9: Tr, 0, CN:3, VN:0
+V, W, t, DS:1 1, GT:0, V, nSt
+Const: 5 8 7
+
+10: Biss, 0, CN:3, VN:2
+V, W, t, DS:1 1, GT:0, V, nSt
+Const: 5 8 7
+
+11: Perp, 0, CN:2, VN:2
+V, W, t, DS:1 1, GT:0, I, nSt
+Const: 5 6
+
+12: Perp, 0, CN:2, VN:2
+V, W, t, DS:1 1, GT:0, I, nSt
+Const: 7 6
+
+13: Cir, 0, CN:2, VN:2
+Bl, W, t, DS:1 1, GT:0, I, nSt
+Const: 5 7
+
+14: Int, 32768, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 11 13
+
+15: Int, 33024, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, I, nSt
+Const: 11 13
+
+"O'", NP: -240, -34, NS: 30, 35
+16: Mid, 0, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 7 14
+p: 0, Comic Sans MS, S: 24 C: 15 Fa: 0
+
+17: Sym, 0, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 5 16
+
+18: Pol, 0, CN:4, VN:0
+V, W, t, DS:1 1, GT:0, V, nSt
+Const: 14 17 7 5
+
+19: Seg, 0, CN:2, VN:0
+V, W, t, DS:5 8, GT:0, V, nSt
+Const: 3 16
+
+20: Int, 0, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 10 18
+
+21: Int, 0, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 6 10
+
+22: Pol, 0, CN:4, VN:0
+V, W, tT, DS:1 1, GT:0, V, nSt
+Const: 5 21 20 14
+
+23: Pol, 0, CN:4, VN:0
+R, W, tT, DS:1 1, GT:0, V, nSt
+Const: 20 17 7 21
+

@@ -1,0 +1,98 @@
+FIGURE CabriII vers. MS-Windows 1.0
+
+Window center x: 0.529166666666667 y: 0.635 Window size x: 20.7433333333333 y: 12.3825
+
+1: Pt, 0, CN:0, VN:1
+R, W, t, DS:1 1, GT:1, I, nSt
+Val: 0 0
+
+2: Axes, 1, CN:1, VN:3
+Gr, W, t, DS:1 1, GT:0, I, nSt
+Const: 1, Val: 1 0, 0 1
+
+"C", NP: -22, 8, NS: 11, 18
+3: Pt, 0, CN:0, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Val: -0.3175 0.449791666666667
+p: 0, System, S: 0 C: 3 Fa: 0
+
+"A", NP: -133, 83, NS: 10, 18
+4: Pt, 0, CN:0, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Val: -3.67770833333333 -1.984375
+p: 0, System, S: 0 C: 3 Fa: 0
+
+"B", NP: 176, 84, NS: 12, 18
+5: Pt, 0, CN:0, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Val: 4.683125 -1.42875
+p: 0, System, S: 0 C: 3 Fa: 0
+
+6: Tr, 0, CN:3, VN:0
+V, W, t, DS:1 1, GT:0, V, nSt
+Const: 3 4 5
+
+"H", NP: -86, -97, NS: 12, 18
+7: Pt, 0, CN:0, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Val: -2.2225 3.04270833333333
+p: 0, System, S: 0 C: 3 Fa: 0
+
+8: Line, 0, CN:2, VN:2
+V, W, tT, DS:1 1, GT:0, V, nSt
+Const: 7 3
+
+9: Line, 0, CN:2, VN:2
+V, W, tT, DS:1 1, GT:0, V, nSt
+Const: 5 7
+
+10: Line, 0, CN:2, VN:2
+V, W, tT, DS:1 1, GT:0, V, nSt
+Const: 4 7
+
+11: Line, 0, CN:2, VN:2
+V, W, t, DS:1 1, GT:0, V, nSt
+Const: 3 4
+
+12: Line, 0, CN:2, VN:2
+V, W, t, DS:1 1, GT:0, V, nSt
+Const: 3 5
+
+"A'", NP: -97, -37, NS: 14, 18
+13: Int, 0, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 10 12
+p: 0, System, S: 0 C: 3 Fa: 0
+
+"B'", NP: 20, -40, NS: 16, 18
+14: Int, 0, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 9 11
+p: 0, System, S: 0 C: 3 Fa: 0
+
+"C'", NP: 25, 78, NS: 15, 18
+15: Int, 1, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 6 8
+p: 0, System, S: 0 C: 3 Fa: 0
+
+16: Par, 0, CN:2, VN:2
+V, W, t, DS:1 1, GT:0, V, nSt
+Const: 15 12
+
+"T", NP: -146, -6, NS: 10, 18
+17: Int, 0, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 10 16
+p: 0, System, S: 0 C: 3 Fa: 0
+
+18: Par, 0, CN:2, VN:2
+V, W, t, DS:1 1, GT:0, V, nSt
+Const: 15 11
+
+"U", NP: 121, -8, NS: 12, 18
+19: Int, 0, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 9 18
+p: 0, System, S: 0 C: 3 Fa: 0
+

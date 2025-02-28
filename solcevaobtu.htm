@@ -1,0 +1,67 @@
+<html>
+<head>
+<title>Untitled Document</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+
+<body bgcolor="#FFFFFF">
+<p>Problema 37 </p>
+<table width="75%" border="1">
+  <tr>
+    <td>Teorema de Ceva. Sean a, b c, los vértices de un triángulo y tres puntos 
+      a' de bc, b' de ca, y c' de ab sobre los lados de este triángulo. Entonces 
+      las tres rectas aa', bb', y cc' son concurrentes si y sólo si se tiene: 
+      a'b / a'c b'c / b'a c'a/ c'b = - 1 </td>
+  </tr>
+</table>
+<p>Berger, M (1.990). Géomètrie. Nathan. LUÇON </p>
+<p>Teorema de Ceva en un tri&aacute;ngulo obtus&aacute;ngulo con H exterior al 
+  tri&aacute;ngulo. Veamos la necesidad. </p>
+<p>Sea ABC, como tradicionalmente se denominan los v&eacute;rtices, obtuso en 
+  C, y sea H un punto exterior a ABC. Es:</p>
+<p><img src="37obt1.gif" width="378" height="254"><img src="37obt2.gif" width="378" height="245"></p>
+<p>Debemos analizar la relaci&oacute;n: A'B/A'C B'C/B'A C'A/C'B.</p>
+<p>Tracemos por C' una paralela al lado BC, que cortar&aacute; a AH en T:</p>
+<p><img src="37obt3.gif" width="376" height="247"></p>
+<p>Tenemos las siguientes relaciones: </p>
+<p>los tri&aacute;ngulos AC'T y ABA' son semejantes, y tambi&eacute;n lo son los 
+  HC'T y HCA'.</p>
+<p>Luego es : AC'/AB=C'T/BA', y HC/CA'=HC'/C'T, de donde se tiene, multiplcando, 
+  que:</p>
+<p>[1] AC'/AB HC/CA' =HC'/BA'. </p>
+<p>Si trazamos ahora una paralela a AC por C', tendremos el punto U de corte con 
+  la recta BH.</p>
+<p>&nbsp;</p>
+<p><img src="37obt4.gif" width="376" height="247"></p>
+<p>Los tri&aacute;ngulos BC'U y BAB' son semejantes, y los HC'U y HCB' tambi&eacute;n 
+  lo son. Luego es:</p>
+<p>BC'/BA=C'U/AB', y por otra parte, es: HC/CB'=HC'/C'U. Multiplicando es:</p>
+<p>[2] BC'/BA HC/CB'= HC'/AB'.</p>
+<p>Dividiendo [1] entre [2], es:</p>
+<p>AC'/AB BA/BC' HC/CA' CB'/HC = HC'/BA' AB'/HC',</p>
+<p> De donde: AC'/BC' CB'/CA' BA'/AB'=-1, y por ello, A'B/A'C B'C/B'A C'A/C'B 
+  = -1, CQD. </p>
+<p>&nbsp;</p>
+
+ <APPLET CODE="CabriJava.class" WIDTH="537" HEIGHT="396" archive="CabriJava.jar"> <param name="lang" value="en"> <param name="bgcolor" value="#F0F0CC"> <param name="file" value="sol37obt.fig"> </APPLET> 
+<p>&nbsp;</p>
+<p>Veamos la suficiencia. </p>
+<p>Si en un tri&aacute;ngulo obtus&aacute;ngulo tenemos que </p>
+<p>Supongamos que se verifica que (A'B B'C C'A) / (A'C B'A C'B) = -1[3]</p>
+<p> con C', B', y A' sobre AB, AC y BC, respectivamente.</p>
+<p> Si C C` y BB' se cortan sobre un punto S, y unimos A con S, </p>
+<p><img src="37obt5.gif" width="376" height="269"> </p>
+<p>Por la condici&oacute;n necesaria deber&iacute;a ser:</p>
+<p>XB/XC B'C/B'A C'A/C'B = -1 [4], Siendo X el punto de corte de BC con AS.</p>
+<p>Dividiendo [3] entre [4], queda:</p>
+<p>(A'B B'C C'A) / (A'C B'A C'B)/(XB/XC B'C/B'A C'A/C'B )= 1, es decir, </p>
+<p>A'B XC /A'C XB =1, o bien, XB/XC = A'B/A'C, y, por las propidades de las proporciones, 
+</p>
+<p>(XB-XC)/XC = (A'B-A'C)/A'C, y BC/XC = BC/A'C, de donde se deduce que X=A', 
+  c.qd.</p>
+<p>Ricardo Barroso.</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+</body>
+</html>
